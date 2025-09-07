@@ -7,3 +7,4 @@ Repository for Meta 1C, BTT Fall 2025 - AI Studio
 - Grace Kim
 - Abrar Bari
 - Caroline Klein
+- Adena Paul
