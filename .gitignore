@@ -1,1 +1,15 @@
 /venv
+/.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Hugging Face datasets / artifacts
+data/tokenized_*/
