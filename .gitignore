@@ -13,3 +13,6 @@ Thumbs.db
 
 # Hugging Face datasets / artifacts
 data/tokenized_*/
+data/train_split
+data/test_split
+data/eval_split
