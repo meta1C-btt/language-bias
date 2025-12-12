@@ -84,7 +84,7 @@ If using Google Colab, dependencies can be installed directly from requirements.
 - Bias was often subtle and context-dependent, creating challenges for both labeling and modeling.
 - The CrowS-Pairs dataset was used as an external benchmark to evaluate how well the model generalizes to unseen domains.
 
-* <img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/e2178885-4f5b-448a-bcfe-6ef9a80d40ed" />
+<img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/e2178885-4f5b-448a-bcfe-6ef9a80d40ed" />
 <img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/8940dd1a-e2b4-4fab-b058-eaee4b3a406b" />
 <img width="789" height="490" alt="image" src="https://github.com/user-attachments/assets/cbc0a97b-822a-4ce3-b733-e4fbd35ab556" />
 <img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/cbdca38d-130c-4761-8a55-287644cb6cf9" />
