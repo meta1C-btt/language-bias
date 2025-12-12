@@ -1,14 +1,3 @@
-# Set up and Track Virtual Environment
-```python
-# Create and Activate Python Virtual Environment (https://docs.python.org/3/library/venv.html)
-virtualenv venv # just do once
-sourve venv/bin/activate
-
-pip install -r requirements.txt
-pip freeze > requirements.txt
-```
-
-
 # Finding Dataset Bias Using Language Models
 
 ---
@@ -135,6 +124,8 @@ If using Google Colab, dependencies can be installed directly from requirements.
 **Potential visualizations to include:**
 
 * Confusion matrix, precision-recall curve, feature importance plot, prediction distribution, outputs from fairness or explainability tools
+* <img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/df7aba54-2ffb-47a8-b53a-2d1ab24f4489" />
+
 
 ---
 
