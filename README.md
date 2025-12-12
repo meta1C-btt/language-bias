@@ -148,6 +148,6 @@ This project is licensed under the MIT License.
 
 ---
 
-## 🙏 **Acknowledgements** (Optional but encouraged)
+## 🙏 **Acknowledgements** 
 
-Thank your Challenge Advisor, host company representatives, TA, and others who supported your project.
+Thank you to our Challenge Advisors and Coaches for all of their support throughout our project.
