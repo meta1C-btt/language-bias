@@ -122,8 +122,8 @@ If using Google Colab, dependencies can be installed directly from requirements.
 - Overall accuracy and F1 score increased to the low-80% range on the in-domain evaluation set.
 - Performance was consistent across bias categories, with no major category-specific failures.
 - Confusion matrix analysis showed a reduction in false negatives, meaning the model became better at identifying biased language.
-- When evaluated on the BBQ dataset, performance decreased relative to the in-domain dataset.
-- This drop is attributed to domain shift, different bias definitions, and more subtle bias cues present in BBQ.
+- When evaluated on the CrowS-Pairs dataset, performance decreased relative to the in-domain dataset.
+- This drop is attributed to domain shift, different bias definitions, and more subtle bias cues present in CrowS-Pairs.
 
 **Potential visualizations to include:**
 
