@@ -23,7 +23,7 @@
 - Developed a BERT-based text classification model to detect biased vs. unbiased language.
 - Fine-tuned a pretrained transformer model to significantly improve accuracy and F1 score over a baseline.
 - Evaluated model fairness by analyzing performance across multiple bias categories.
-- Tested model generalizability by applying it to the BBQ bias benchmark dataset.
+- Tested model generalizability using the CrowS-Pairs bias benchmark dataset.
 
 ---
 
@@ -74,9 +74,8 @@ If using Google Colab, dependencies can be installed directly from requirements.
 **Describe:**
 
 - This project was completed as part of the Break Through Tech AI Studio Challenge in collaboration with Meta. The objective was to design and evaluate a machine learning model capable of identifying biased language in text.
-- Bias detection is a critical problem for large-scale platforms, where automated systems are often used to moderate content and support decision-making. Inaccurate or inconsistent bias detection can lead to unfair outcomes or missed harmful content. Through this project, we explored how fine-tuning large language models impacts both performance and fairness across different demographic categories.
-- By evaluating the model on both in-domain data and the BBQ bias benchmark dataset, this work highlights the challenges of generalization and the importance of robust bias detection systems in real-world applications.
-
+- Bias detection is a critical problem for large-scale platforms, where automated systems are used to moderate content and support decision-making. Inaccurate or inconsistent bias detection can lead to unfair outcomes or missed harmful content. Through this project, we explored how fine-tuning large language models impacts both performance and fairness across different demographic categories.
+- By evaluating the model on both in-domain data and the CrowS-Pairs bias benchmark dataset, this work highlights the challenges of generalization and the importance of robust bias detection systems in real-world applications.
 ---
 
 ## 📊 **Data Exploration**
@@ -85,11 +84,16 @@ If using Google Colab, dependencies can be installed directly from requirements.
 - Text was tokenized using BERT’s tokenizer with truncation and padding.
 - Dataset was analyzed for class balance and category distribution.
 - Bias was often subtle and context-dependent, creating challenges for both labeling and modeling.
-- The BBQ dataset was used as an external benchmark to evaluate how well the model generalizes to unseen domains.
+- The CrowS-Pairs dataset was used as an external benchmark to evaluate how well the model generalizes to unseen domains.
 
 **Potential visualizations to include:**
 
 * Plots, charts, heatmaps, feature visualizations, sample dataset images
+* <img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/e2178885-4f5b-448a-bcfe-6ef9a80d40ed" />
+<img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/8940dd1a-e2b4-4fab-b058-eaee4b3a406b" />
+<img width="789" height="490" alt="image" src="https://github.com/user-attachments/assets/cbc0a97b-822a-4ce3-b733-e4fbd35ab556" />
+<img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/cbdca38d-130c-4761-8a55-287644cb6cf9" />
+<img width="789" height="490" alt="image" src="https://github.com/user-attachments/assets/638a168b-7ffb-4a17-a3e0-e1992f38b973" />
 
 ---
 
@@ -123,16 +127,20 @@ If using Google Colab, dependencies can be installed directly from requirements.
 
 **Potential visualizations to include:**
 
-* Confusion matrix, precision-recall curve, feature importance plot, prediction distribution, outputs from fairness or explainability tools
+# Fine-Tuned Model
 * <img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/df7aba54-2ffb-47a8-b53a-2d1ab24f4489" />
+<img width="1174" height="490" alt="image" src="https://github.com/user-attachments/assets/4be94e7f-fafa-42c6-afb6-6eda87fe33e8" />
 
+# CrowS-Pairs
+<img width="507" height="455" alt="image" src="https://github.com/user-attachments/assets/1da49a0e-ce37-45b6-a1ce-f46625835479" />
+<img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/6e2e6b9e-35c2-4cd8-8453-44f4fb0b2f9d" />
 
 ---
 
 ## 🚀 **Next Steps**
 
 - Expand from binary classification to categorical bias classification.
-- Train on multiple bias datasets, including BBQ, to improve generalization.
+- Train on multiple bias datasets, including CrowS-Pairs and BBQ, to improve generalization.
 - Explore domain adaptation or data augmentation techniques.
 - Investigate explainability tools to better understand model predictions.
   
