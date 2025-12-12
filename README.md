@@ -32,7 +32,7 @@
 This project uses a Python virtual environment and a requirements.txt file generated with pip freeze to ensure full reproducibility, including all direct and indirect dependencies.
 
 #### 1. Clone the Repository
-        git clone https://github.com/your-repo-name.git
+        git clone https://github.com/meta1C-btt/language-bias.git
         cd language-bias
 
 #### 2. Create and Activate a Virtual Environment
