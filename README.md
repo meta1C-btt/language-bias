@@ -31,11 +31,11 @@
 
 This project uses a Python virtual environment and a requirements.txt file generated with pip freeze to ensure full reproducibility, including all direct and indirect dependencies.
 
-# 1. Clone the Repository
+#### 1. Clone the Repository
         git clone https://github.com/your-repo-name.git
         cd language-bias
 
-# 2. Create and Activate a Virtual Environment
+#### 2. Create and Activate a Virtual Environment
  Create the virtual environment (run once)
         python3 -m venv venv
         
@@ -43,23 +43,23 @@ Activate the environment
         source venv/bin/activate    # macOS / Linux
         venv\Scripts\activate     # Windows
 
-# 3. Install Dependencies
+#### 3. Install Dependencies
         pip install -r requirements.txt
         
 The requirements.txt file includes pinned versions of all required libraries to ensure consistent results across environments.
 
-# 4. Run the Project
+#### 4. Run the Project
         jupyter notebook
         
 Open the main notebook and run all cells to reproduce the experiments and results.
 
-# Optional: Regenerate Requirements
+#### Optional: Regenerate Requirements
 
 If dependencies are updated or modified:
         
         pip freeze > requirements.txt
 
-# Notes
+#### Notes
 
 Python 3.9+ is recommended.
                 
@@ -70,8 +70,6 @@ If using Google Colab, dependencies can be installed directly from requirements.
 ---
 
 ## 🏗️ **Project Overview**
-
-**Describe:**
 
 - This project was completed as part of the Break Through Tech AI Studio Challenge in collaboration with Meta. The objective was to design and evaluate a machine learning model capable of identifying biased language in text.
 - Bias detection is a critical problem for large-scale platforms, where automated systems are used to moderate content and support decision-making. Inaccurate or inconsistent bias detection can lead to unfair outcomes or missed harmful content. Through this project, we explored how fine-tuning large language models impacts both performance and fairness across different demographic categories.
@@ -86,9 +84,6 @@ If using Google Colab, dependencies can be installed directly from requirements.
 - Bias was often subtle and context-dependent, creating challenges for both labeling and modeling.
 - The CrowS-Pairs dataset was used as an external benchmark to evaluate how well the model generalizes to unseen domains.
 
-**Potential visualizations to include:**
-
-* Plots, charts, heatmaps, feature visualizations, sample dataset images
 * <img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/e2178885-4f5b-448a-bcfe-6ef9a80d40ed" />
 <img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/8940dd1a-e2b4-4fab-b058-eaee4b3a406b" />
 <img width="789" height="490" alt="image" src="https://github.com/user-attachments/assets/cbc0a97b-822a-4ce3-b733-e4fbd35ab556" />
@@ -115,8 +110,6 @@ If using Google Colab, dependencies can be installed directly from requirements.
 ---
 
 ## 📈 **Results & Key Findings**
-
-**You might consider describing the following (as applicable):**
 
 - Fine-tuning significantly improved performance over the baseline model.
 - Overall accuracy and F1 score increased to the low-80% range on the in-domain evaluation set.
