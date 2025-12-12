@@ -6,12 +6,12 @@
 
 | Name             | GitHub Handle | Contribution                                                             |
 |------------------|---------------|--------------------------------------------------------------------------|
-| Grace Kim    | @gracekim247 | Data exploration, visualization, overall project coordination            |
-| Caroline Klein  | @CaroAK     | Data collection, exploratory data analysis (EDA), dataset documentation  |
-| Roger Nguyen     | @hiepngiyenduc2005  | Data preprocessing, feature engineering, data validation                 |
-| Abrar Bari      | @abbari6566       | Model selection, hyperparameter tuning, model training and optimization  |
-| Jessica-Rita Ochuba       | @jessica-rita    | Model evaluation, performance analysis, results interpretation           |
-| Adena Paul      | @a-k-paul    | Model evaluation, performance analysis, results interpretation           |
+| Grace Kim    | @gracekim247 | Data preprocessing, exploratory data analysis (EDA), visualization, project coordination            |
+| Caroline Klein  | @CaroAK     | Data collection, data preprocessing, exploratory data analysis (EDA), hyperparameter tuning  |
+| Roger Nguyen     | @hiepngiyenduc2005  | Data preprocessing, feature engineering, model training, data validation, external dataset testing (CrowS-Pairs)                 |
+| Abrar Bari      | @abbari6566       | Model training, model optimization, performance evaluation, results interpretation  |
+| Jessica-Rita Ochuba       | @jessica-rita    | Model evaluation, performance analysis, visualization, hyperparameter tuning          |
+| Adena Paul      | @a-k-paul    | Model evaluation, performance analysis, results interpretation, visualization           |
 
 
 ---
