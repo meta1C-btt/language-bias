@@ -43,41 +43,40 @@ pip freeze > requirements.txt
 This project uses a Python virtual environment and a requirements.txt file generated with pip freeze to ensure full reproducibility, including all direct and indirect dependencies.
 
 # 1. Clone the Repository
-        ```git clone https://github.com/your-repo-name.git
-        cd language-bias```
+```git clone https://github.com/your-repo-name.git
+cd language-bias```
 
 # 2. Create and Activate a Virtual Environment
-        Create the virtual environment (run once)
-        ```python3 -m venv venv```
+Create the virtual environment (run once)
+```python3 -m venv venv```
         
-        # Activate the environment
-        ```source venv/bin/activate    # macOS / Linux
-        venv\Scripts\activate     # Windows```
+Activate the environment
+```source venv/bin/activate    # macOS / Linux
+venv\Scripts\activate     # Windows```
 
 # 3. Install Dependencies
-        ```pip install -r requirements.txt```
+```pip install -r requirements.txt```
 
-
-        The requirements.txt file includes pinned versions of all required libraries to ensure consistent results across environments.
+The requirements.txt file includes pinned versions of all required libraries to ensure consistent results across environments.
 
 # 4. Run the Project
-        ```jupyter notebook```
+```jupyter notebook```
 
-        Open the main notebook and run all cells to reproduce the experiments and results.
+Open the main notebook and run all cells to reproduce the experiments and results.
 
 # Optional: Regenerate Requirements
 
-        If dependencies are updated or modified:
+If dependencies are updated or modified:
 
-        ```pip freeze > requirements.txt```
+```pip freeze > requirements.txt```
 
 # Notes
 
-        Python 3.9+ is recommended.
+Python 3.9+ is recommended.
         
-        GPU acceleration is optional but improves training speed.
+GPU acceleration is optional but improves training speed.
         
-        If using Google Colab, dependencies can be installed directly from requirements.txt.
+If using Google Colab, dependencies can be installed directly from requirements.txt.
 
 ---
 
