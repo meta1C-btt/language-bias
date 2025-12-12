@@ -121,7 +121,7 @@ If using Google Colab, dependencies can be installed directly from requirements.
 **Potential visualizations to include:**
 
 ### Fine-Tuned Model
-* <img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/df7aba54-2ffb-47a8-b53a-2d1ab24f4489" />
+<img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/df7aba54-2ffb-47a8-b53a-2d1ab24f4489" />
 <img width="1174" height="490" alt="image" src="https://github.com/user-attachments/assets/4be94e7f-fafa-42c6-afb6-6eda87fe33e8" />
 
 ### CrowS-Pairs
