@@ -141,10 +141,11 @@ If using Google Colab, dependencies can be installed directly from requirements.
 
 ## 📝 **License**
 
-If applicable, indicate how your project can be used by others by specifying and linking to an open source license type (e.g., MIT, Apache 2.0). Make sure your Challenge Advisor approves of the selected license type.
-
-**Example:**
-This project is licensed under the MIT License.
+This project is open source and available under the [MIT License](https://opensource.org/licenses/MIT).
+* **BERT**: [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0)
+* **RedditBias**: [MIT License](https://opensource.org/licenses/MIT)
+* **CrowS-Pairs**: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (Used for evaluation only)
+* **BBQ**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (Used for evaluation only)
 
 ---
 
